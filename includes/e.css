@@ -192,7 +192,7 @@ header{
     margin-top: 5rem;
     background:
         linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url("/includes/images/repair.jpg");
+        url("../includes/images/repair.jpg");
     background-position: center;
     background-size: cover;
     padding-top: 2rem;
