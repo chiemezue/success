@@ -225,7 +225,7 @@ header{
   height: 20rem;
   background:
       linear-gradient(rgba(45, 45, 45, 0.7), rgba(0, 0, 0, 0.7)),
-      url("/includes/images/banner2.jpg");
+      url("../includes/images/banner2.jpg");
   background-position: center;
   background-size: cover;
   display: flex;
@@ -238,7 +238,7 @@ header{
 .banner2 {
   height: 20rem;
   background:
-    url("/includes/images/banner3.jpg");
+    url("../includes/images/banner3.jpg");
   background-position: center;
   background-size: cover;
   display: flex;
@@ -252,7 +252,7 @@ header{
 .banner3 {
   height: 20rem;
   background:
-    url("/includes/images/banner1.jpg");
+    url("../includes/images/banner1.jpg");
   background-position: center;
   background-size: cover;
   display: flex;
@@ -263,7 +263,7 @@ header{
 
 .banner4 {
   height: 20rem;
-    background: url("/includes/images/banner4.jpg");
+    background: url("../includes/images/banner4.jpg");
   background-position: center;
   background-size: cover;
   display: flex;
