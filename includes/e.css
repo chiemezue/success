@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(249, 249, 249);
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.intro {
+  height: 40rem;
+  color: aliceblue;
+}
+
+.shop{
+  height: 20rem;
+}
+
+header{
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+
+/* NAV STYLINGS */
+.nav-item {
+  margin: auto 20px;
+}
+
+.background{
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
+    url("../includes/images/perfume3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.navbar-brand{
+  color: aliceblue;
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: "Exo 2",
+    sans-serif;
+}
+
+.navbar-brand:hover{
+    color: aliceblue;
+}
+.nav-link{
+  color: white;
+  position: relative;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+}
+
+.nav-link::after{
+  content: "";
+  position: absolute;
+  background-color: white;
+  height: 1.5px;
+  width: 0;
+  left: 0;
+  bottom: -1px;
+  transition: 0.3s;
+}
+
+.nav-link:hover{
+  color: aliceblue;
+}
+
+.nav-link:hover::after{
+  width: 100%;
+}
+
+
+.value{
+  font-size: 3rem;
+}
+
+.perfume{
+  height: 15rem;
+  width: 20rem;
+  object-position: center;
+  
+}
+
+/* Card Stylings For The Random */
+
+.random{
+  width: 10rem;
+  display: flex;
+  justify-content: center;
+  height: 12rem;
+  border: 0 ;
+}
+
+.card-image{
+  width: 10rem;
+  height: 10rem;
+  object-position: center;
+}
+
+.card-container{
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.card-button1{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(156, 211, 74);
+  padding: 2px;
+  border-radius: 10px;
+}
+
+.card-button2 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(221, 219, 219);
+  padding: 2px;
+  border-radius: 10px;
+  color: aliceblue;
+  
+}
+
+.card-button3 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(235, 200, 134);
+  padding: 2px;
+  border-radius: 10px;
+}
+
+.card-button4 {
+  display: flex;
+  justify-content: center;
+  background-color: pink;
+  padding: 2px;
+  border-radius: 10px;
+}
+
+.card-button5 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(192, 217, 255);
+  padding: 2px;
+  border-radius: 10px;
+}
+
+.card-button6 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(150, 190, 250);
+  padding: 2px;
+  border-radius: 10px;
+}
+
+
+/* Styles for Featured Products */
+
+
+
+.card-body{
+  height: auto;
+}
+
+.card-img-top{
+  height: 18rem;
+  object-position: center;
+  object-fit: cover;
+}
+
+.card-body div a{
+  color: black;
+}
+
+/* Repair Services */
+
+.repair{
+    margin-top: 5rem;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url("/includes/images/repair.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+.Explore{
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  padding: 7px 1.8rem ;
+  transition: 0.5s;
+}
+
+
+
+.Explore:hover{
+  background-color: rgba(254, 182, 87, 0.7);
+  border: 0px;
+  color: white;
+}
+
+
+
+/* Banner Stylings */
+
+.banner1{
+  height: 20rem;
+  background:
+      linear-gradient(rgba(45, 45, 45, 0.7), rgba(0, 0, 0, 0.7)),
+      url("/includes/images/banner2.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 1rem;
+}
+
+
+.banner2 {
+  height: 20rem;
+  background:
+    url("/includes/images/banner3.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 1rem;
+
+}
+
+
+.banner3 {
+  height: 20rem;
+  background:
+    url("/includes/images/banner1.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 1rem;
+}
+
+.banner4 {
+  height: 20rem;
+    background: url("/includes/images/banner4.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 1rem;
+}
+
+.banner5 {
+  height: 20rem;
+  background:url("/includes/images/banner5.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 1rem;
+}
+
+.new-arrival .card{
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.new-arrival .card:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+footer{
+  color: whitesmoke;
+}
+
+footer a {
+  color: whitesmoke;
+  transform: 0.5s;
+}
+
+footer h3{
+  font-size: 2.5rem;
+}
+
+footer p {
+  font-weight: lighter;
+}
+
+footer a:hover{
+  color: rgba(254, 182, 87, 0.7);
+  font-weight: 700;
+}
+
+
+/* THE PICTURE GALLERY */
+
+.main-picture{
+  height: 30rem;
+  object-position: center;
+  object-fit: cover;
+}
+
+.picture-gallery{
+  margin-top: 0.6px;
+}
+
+.sub-pictures{
+  height: 15rem;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  cursor: pointer;
+}
+
+.number{
+  width: 3rem;
+}
+
+
+/* ABOUT PAGE */
+
+.about-image{
+  height: 30rem;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+/* CART PAGE */
+
+.cart-image{
+  height: 5rem;
+  width: 5rem;
+  object-fit: cover;
+  object-position: center;
+}
+
+#main-cart{
+  overflow-x: auto;
+}
