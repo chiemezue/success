@@ -361,3 +361,6 @@ footer a:hover{
 #main-cart{
   overflow-x: auto;
 }
+.map{
+  overflow-x: auto;
+}
